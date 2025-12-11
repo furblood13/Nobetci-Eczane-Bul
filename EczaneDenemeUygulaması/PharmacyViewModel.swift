@@ -5,7 +5,7 @@ class PharmacyViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var city :String = ""
     @Published var district:String = ""
-    private let apiKey = "0dhoNryXafOIbjFs5jk8L8:5Xchk0xydzVFY48DKWyd6w"
+    private let apiKey = "//"
     
     func fetchDutyPharmacies() {
         isLoading = true
